@@ -16,7 +16,7 @@ const Cardscontainer = (props) => {
           <div className="cardscontainer-frame3">
             <img
               alt="materiallibrary411I331"
-              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/6661ee2b-e953-41fe-9e6b-fd7f79960763/1811f3a6-940b-4c9b-8c43-da462cf86eaf?org_if_sml=129848&amp;force_format=original"
+              src="/external/materiallibrary411i331-dtjb-200h.png"
               className="cardscontainer-materiallibrary411"
             />
             <span className="cardscontainer-text">

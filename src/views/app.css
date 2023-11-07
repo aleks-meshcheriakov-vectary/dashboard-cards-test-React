@@ -1,4 +1,4 @@
-.cardscontainer-container {
+.app-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,18 +6,23 @@
   align-items: center;
   flex-direction: column;
 }
-.cardscontainer-cardscontainer {
+.app-app {
   gap: 16px;
   width: 100%;
   height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.app-cardscontainer {
+  gap: 16px;
   display: flex;
   padding: 16px 0;
   overflow: hidden;
   flex-wrap: wrap;
   align-items: flex-start;
-  background-color: rgba(255, 255, 255, 1);
 }
-.cardscontainer-cardgetstarted {
+.app-cardgetstarted {
   gap: 10px;
   width: 329px;
   height: 175px;
@@ -30,7 +35,7 @@
   flex-direction: column;
   background-image: linear-gradient(57deg, rgba(98, 0, 255, 1) 0%, rgba(152, 73, 255, 1) 100%);
 }
-.cardscontainer-frame3 {
+.app-frame3 {
   width: 281px;
   height: 127px;
   display: flex;
@@ -39,103 +44,28 @@
   align-self: stretch;
   align-items: flex-start;
 }
-.cardscontainer-materiallibrary411 {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-.cardscontainer-text {
-  top: 91px;
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  font-style: Bold;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 136.00000143051147%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.cardscontainer-text02 {
-  top: 111px;
-  color: rgba(255, 255, 255, 0.800000011920929);
-  height: auto;
-  position: absolute;
-  font-size: 12px;
-  font-style: Light;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 300;
-  line-height: 136.00000143051147%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.cardscontainer-video-tutorials {
-  top: 0px;
-  left: 0px;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-radius: 12.40845012664795px;
-  background-image: linear-gradient(147deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.10000000149011612) 100%);
-}
-.cardscontainer-iconar {
-  top: 8px;
-  left: 9px;
-  width: 22px;
-  height: 24px;
-  position: absolute;
-}
-.cardscontainer-cardgetstarted1 {
-  gap: 10px;
-  width: 329px;
-  height: 175px;
-  display: flex;
-  padding: 24px;
-  overflow: hidden;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-radius: 8px;
-  flex-direction: column;
-  background-image: linear-gradient(57deg, rgba(98, 0, 255, 1) 0%, rgba(152, 73, 255, 1) 100%);
-}
-.cardscontainer-frame31 {
-  width: 281px;
-  height: 127px;
-  display: flex;
-  position: relative;
-  flex-grow: 1;
-  align-self: stretch;
-  align-items: flex-start;
-}
-.cardscontainer-materiallibrary4111 {
+.app-materiallibrary411 {
   top: -27px;
   left: -27px;
   width: 335px;
   height: 182px;
   position: absolute;
 }
-.cardscontainer-text04 {
+.app-text {
   top: 91px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
   font-size: 14px;
   font-style: Bold;
-  text-align: center;
+  text-align: left;
   font-family: Inter;
   font-weight: 700;
   line-height: 136.00000143051147%;
   font-stretch: normal;
   text-decoration: none;
 }
-.cardscontainer-text06 {
+.app-text02 {
   top: 111px;
   color: rgba(255, 255, 255, 0.800000011920929);
   height: auto;
@@ -149,7 +79,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cardscontainer-video-tutorials1 {
+.app-video-tutorials {
   top: 0px;
   left: 0px;
   width: 40px;
@@ -162,14 +92,14 @@
   border-radius: 12.40845012664795px;
   background-image: linear-gradient(147deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.10000000149011612) 100%);
 }
-.cardscontainer-iconar1 {
+.app-iconar {
   top: 8px;
   left: 9px;
   width: 22px;
   height: 24px;
   position: absolute;
 }
-.cardscontainer-cardgetstarted2 {
+.app-cardgetstarted1 {
   gap: 10px;
   width: 329px;
   height: 175px;
@@ -182,7 +112,7 @@
   flex-direction: column;
   background-image: linear-gradient(57deg, rgba(98, 0, 255, 1) 0%, rgba(152, 73, 255, 1) 100%);
 }
-.cardscontainer-frame32 {
+.app-frame31 {
   width: 281px;
   height: 127px;
   display: flex;
@@ -191,28 +121,28 @@
   align-self: stretch;
   align-items: flex-start;
 }
-.cardscontainer-materiallibrary4112 {
+.app-materiallibrary4111 {
   top: -27px;
   left: -27px;
   width: 335px;
   height: 182px;
   position: absolute;
 }
-.cardscontainer-text08 {
+.app-text04 {
   top: 91px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
   font-size: 14px;
   font-style: Bold;
-  text-align: center;
+  text-align: left;
   font-family: Inter;
   font-weight: 700;
   line-height: 136.00000143051147%;
   font-stretch: normal;
   text-decoration: none;
 }
-.cardscontainer-text10 {
+.app-text06 {
   top: 111px;
   color: rgba(255, 255, 255, 0.800000011920929);
   height: auto;
@@ -226,7 +156,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cardscontainer-video-tutorials2 {
+.app-video-tutorials1 {
   top: 0px;
   left: 0px;
   width: 40px;
@@ -239,14 +169,14 @@
   border-radius: 12.40845012664795px;
   background-image: linear-gradient(147deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.10000000149011612) 100%);
 }
-.cardscontainer-iconar2 {
+.app-iconar1 {
   top: 8px;
   left: 9px;
   width: 22px;
   height: 24px;
   position: absolute;
 }
-.cardscontainer-cardgetstarted3 {
+.app-cardgetstarted2 {
   gap: 10px;
   width: 329px;
   height: 175px;
@@ -259,7 +189,7 @@
   flex-direction: column;
   background-image: linear-gradient(57deg, rgba(98, 0, 255, 1) 0%, rgba(152, 73, 255, 1) 100%);
 }
-.cardscontainer-frame33 {
+.app-frame32 {
   width: 281px;
   height: 127px;
   display: flex;
@@ -268,28 +198,28 @@
   align-self: stretch;
   align-items: flex-start;
 }
-.cardscontainer-materiallibrary4113 {
+.app-materiallibrary4112 {
   top: -27px;
   left: -27px;
   width: 335px;
   height: 182px;
   position: absolute;
 }
-.cardscontainer-text12 {
+.app-text08 {
   top: 91px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
   font-size: 14px;
   font-style: Bold;
-  text-align: center;
+  text-align: left;
   font-family: Inter;
   font-weight: 700;
   line-height: 136.00000143051147%;
   font-stretch: normal;
   text-decoration: none;
 }
-.cardscontainer-text14 {
+.app-text10 {
   top: 111px;
   color: rgba(255, 255, 255, 0.800000011920929);
   height: auto;
@@ -303,7 +233,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cardscontainer-video-tutorials3 {
+.app-video-tutorials2 {
   top: 0px;
   left: 0px;
   width: 40px;
@@ -316,23 +246,260 @@
   border-radius: 12.40845012664795px;
   background-image: linear-gradient(147deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.10000000149011612) 100%);
 }
-.cardscontainer-iconar3 {
+.app-iconar2 {
   top: 8px;
   left: 9px;
   width: 22px;
   height: 24px;
   position: absolute;
 }
-.cardscontainer-container1 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
+.app-cardgetstarted3 {
+  gap: 10px;
+  width: 329px;
+  height: 175px;
   display: flex;
+  padding: 24px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  flex-direction: column;
+  background-image: linear-gradient(57deg, rgba(98, 0, 255, 1) 0%, rgba(152, 73, 255, 1) 100%);
+}
+.app-frame33 {
+  width: 281px;
+  height: 127px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
   align-items: flex-start;
 }
-.cardscontainer-link {
+.app-materiallibrary4113 {
+  top: -27px;
+  left: -27px;
+  width: 335px;
+  height: 182px;
+  position: absolute;
+}
+.app-text12 {
+  top: 91px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 136.00000143051147%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.app-text14 {
+  top: 111px;
+  color: rgba(255, 255, 255, 0.800000011920929);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Light;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 136.00000143051147%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.app-video-tutorials3 {
+  top: 0px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12.40845012664795px;
+  background-image: linear-gradient(147deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.10000000149011612) 100%);
+}
+.app-iconar3 {
+  top: 8px;
+  left: 9px;
+  width: 22px;
+  height: 24px;
+  position: absolute;
+}
+.app-frame6081 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.app-link {
   display: contents;
 }
-.cardscontainer-component {
+.app-cardgetstarted4 {
+  gap: 10px;
+  height: 360px;
+  display: flex;
+  padding: 24px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  flex-direction: column;
+  background-image: linear-gradient(57deg, rgba(98, 0, 255, 1) 0%, rgba(152, 73, 255, 1) 100%);
+}
+.app-frame34 {
+  width: 281px;
+  height: 312px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+}
+.app-materiallibrary4114 {
+  top: -53px;
+  left: -75px;
+  width: 431px;
+  height: 419px;
+  position: absolute;
+}
+.app-text16 {
+  top: 276px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 136.00000143051147%;
+  font-stretch: normal;
   text-decoration: none;
+}
+.app-text18 {
+  top: 296px;
+  color: rgba(255, 255, 255, 0.800000011920929);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Light;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 136.00000143051147%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.app-video-tutorials4 {
+  top: 0px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12.40845012664795px;
+  background-image: linear-gradient(147deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.10000000149011612) 100%);
+}
+.app-iconar4 {
+  top: 8px;
+  left: 9px;
+  width: 22px;
+  height: 24px;
+  position: absolute;
+}
+.app-cta-get-started {
+  width: 1019px;
+  height: 360px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background-color: rgba(37, 37, 37, 1);
+}
+.app-homepage-bottom-start-creating {
+  top: -22px;
+  left: 0px;
+  width: 1320px;
+  height: 560px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-self: stretch;
+  align-items: flex-start;
+}
+.app-grid-stackable {
+  top: -7px;
+  left: -38px;
+  width: 703px;
+  height: 702px;
+  opacity: 0.20;
+  position: absolute;
+}
+.app-grid-stackable1 {
+  top: -7px;
+  left: 666px;
+  width: 703px;
+  height: 702px;
+  opacity: 0.20;
+  position: absolute;
+}
+.app-frame6080 {
+  gap: 30px;
+  top: 55px;
+  left: 210px;
+  width: 600px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.app-text20 {
+  color: rgba(255, 255, 255, 1);
+  width: 600px;
+  height: auto;
+  text-align: center;
+  line-height: 100%;
+}
+.app-text22 {
+  color: var(--dl-color-default-softgrey4);
+  width: 600px;
+  height: auto;
+  text-align: center;
+  line-height: 150.02272129058838%;
+}
+.app-button {
+  gap: 10px;
+  height: 40px;
+  display: flex;
+  padding: 0 16px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(97, 0, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: var(--dl-color-default-white1);
+}
+.app-text24 {
+  color: var(--dl-color-default-primarylm);
+  height: auto;
+  text-align: center;
+  line-height: 150.02272129058838%;
 }
