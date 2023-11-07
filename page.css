@@ -1,0 +1,103 @@
+.cardgetstarted-cardgetstarted {
+  gap: 10px;
+  width: 329px;
+  height: 175px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-radius: 8px;
+  flex-direction: column;
+  background-image: linear-gradient(57deg, rgba(98, 0, 255, 1) 0%, rgba(152, 73, 255, 1) 100%);
+}
+.cardgetstarted-materiallibrary411 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.cardgetstarted-container {
+  gap: 4px;
+  flex: 1 0;
+  width: 100%;
+  height: 6em;
+  display: flex;
+  padding: 24px;
+  align-self: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.cardgetstarted-text {
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 136.00000143051147%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.cardgetstarted-text2 {
+  color: rgba(255, 255, 255, 0.800000011920929);
+  width: 100%;
+  height: auto;
+  font-size: 12px;
+  font-style: Light;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 136.00000143051147%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.cardgetstarted-lottie-node {
+  width: 300px;
+  height: 300px;
+  opacity: 0.5;
+  position: absolute;
+}
+.cardgetstarted-video-tutorials {
+  top: 40px;
+  left: 24px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12.40845012664795px;
+  background-image: linear-gradient(147deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.10000000149011612) 100%);
+}
+.cardgetstarted-iconar {
+  top: 8px;
+  left: 9px;
+  width: 22px;
+  height: 24px;
+  position: absolute;
+}
+
+.page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.page-cardscontainer {
+  gap: 16px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 16px 0;
+  overflow: hidden;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
